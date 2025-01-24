@@ -13,14 +13,14 @@ int main() {
         cin >> numbers[i];
     }
 
-    int maximum = numbers[0];
+    int minimum = numbers[0];
     for (int i = 1; i < sizeOfMassive; i++) {
-        if (numbers[i] > maximum) {
-            maximum = numbers[i];
+        if (numbers[i] < minumum) {
+            minimum = numbers[i];
         }
     }
 
-    cout << "Минимальный элемент: " << maximum << endl;
+    cout << "Минимальный элемент: " << minimum << endl;
 
     return 0;
 }
