@@ -4,12 +4,12 @@ using namespace std;
 int main() {
     setlocale(LC_ALL, "russian");
     int sizeOfMassive = 5;
-    cout << "Ââåäèòå ðàçìåð ìàññèâà: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð¼Ð°ÑÑÐ¸Ð²Ð°: ";
     cin >> sizeOfMassive;
     int numbers[sizeOfMassive];
-    cout << "Ââåäèòå 5 ÷èñåë:" << endl;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð°:" << endl;
     for (int i = 0; i < sizeOfMassive; i++) {
-        cout << "×èñëî " << (i + 1) << ": ";
+        cout << "Ð§Ð¸ÑÐ»Ð¾ " << (i + 1) << ": ";
         cin >> numbers[i];
     }
 
@@ -20,7 +20,7 @@ int main() {
         }
     }
 
-    cout << "Ìàêñèìàëüíîå ÷èñëî: " << maximum << endl;
+    cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚: " << maximum << endl;
 
     return 0;
 }
