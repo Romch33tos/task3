@@ -15,7 +15,7 @@ int main() {
 
     int minimum = numbers[0];
     for (int i = 1; i < sizeOfMassive; i++) {
-        if (numbers[i] < minumum) {
+        if (numbers[i] < minimum) {
             minimum = numbers[i];
         }
     }
